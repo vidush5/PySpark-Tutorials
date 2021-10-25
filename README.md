@@ -43,6 +43,17 @@ Spark supports many RDBMS.(Hadoop HDFS, Delta lake, Redis, mongoDB, cassandra, P
 
 ### Real Time and Batch Processing
 
+## Spark Context vs Spark Session
+
+#### Spark APIs - Before Spark 2.0
+1. For Core API - SparkContext
+2. For Streaming API - StreamingContext
+3. For SQL API - SQLContext
+Common entry point was created by SparkSession
+
+
+
+
 ## What is Hadoop?
 Hadoop is a method for distributing large files through a large number of computers. Hadoop frameworks require a lot of read-write operations on a hard disk which makes it very expensive in terms of time and speed.
 
